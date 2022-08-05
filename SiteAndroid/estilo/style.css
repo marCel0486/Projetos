@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+:root{
+    --cor0: #C5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+*{
+    margin: 0px;
+    
+}
+
+body{
+background-color: var(--cor0);
+}
+
+p{
+    margin: 15px 0px ;
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+header{
+    background-color: var(--cor4);
+    padding: 0px 5px 15px 5px;
+    height: 90px;
+    text-align: center;
+}
+h1{
+    padding-top: 15px;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.535);
+}
+
+header>p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.535);
+}
+    
+
+
+nav{
+    text-align: left;
+    background-color: var(--cor5);
+    padding: 0px 5px 15px 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.687) ;
+      
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+}
+nav>a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor4);
+    border-radius: 3px;
+    
+
+}
+
+nav>a:hover{
+    background-color: var(--cor2);
+    transition-duration: 0.5s;
+}
+
+main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px ;
+    margin: 3px auto 3px auto ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.687);
+    min-width: 400px;
+    max-width: 800px;
+    
+}
+
+section>h2{
+    padding: 3px;
+    color: var(--cor4);
+    background-color:var(--cor3) ;
+    font-family: idroid;
+    border-radius: 5px;
+}
+
+
+.android{
+    display: block;
+    margin: 0px auto 0px auto ;
+}
+
+.video{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+}
+
+aside{
+    color: white;
+    background-color:var(--cor4) ;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px ;
+    margin: 3px 3px 3px 3px ;
+}
+
+aside>h2{
+    color: white;
+    font-family: fantasy;
+    background-color: var(--cor3);
+    padding: 3px;
+    border-radius:5px;
+}
+
+aside>ul{
+    list-style-type: '\2714\00A0';
+    columns: 2;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    padding: 1px ;
+}
+
+p>a{
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+}
+
+p>a:hover{
+    background-color: var(--cor2);
+}
